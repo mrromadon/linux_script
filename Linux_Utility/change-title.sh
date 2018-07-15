@@ -1,20 +1,20 @@
 #/bin/bash
 
-#WJ#============================================================================
-#WJ#Reff : http://misc.flogisoft.com/bash/tip_colors_and_formatting
-#WJ#============================================================================
-#WJ# Attribute Set  Reset    Color  FGround BGround     Color   FGround BGround
-#WJ# --------- ---  -----    ------ ------- -------     ------- ------- -------
-#WJ# Bold      1    21       black  30      40          d.grey  90      100
-#WJ# Dim       2    22       red    31      41          l.red   91      101
-#WJ# Underline 4    24       green  32      42          l.green 92      100
-#WJ# Blink     5    25       yellow 33      43          l.yellow93      103
-#WJ# Reverse   7    27       blue   34      44          l.blue  94      104
-#WJ# Hidden    8    28       magenta35      45          l.magent95      105
-#WJ# All Attributes 0        cyan   36      46          l.cyan  96      106
-#WJ#                         l.gray 37      47          white   97      107
-#WJ#                         default39      49
-#WJ#============================================================================
+##============================================================================
+##Reff : http://misc.flogisoft.com/bash/tip_colors_and_formatting
+##============================================================================
+## Attribute Set  Reset    Color  FGround BGround     Color   FGround BGround
+## --------- ---  -----    ------ ------- -------     ------- ------- -------
+## Bold      1    21       black  30      40          d.grey  90      100
+## Dim       2    22       red    31      41          l.red   91      101
+## Underline 4    24       green  32      42          l.green 92      100
+## Blink     5    25       yellow 33      43          l.yellow93      103
+## Reverse   7    27       blue   34      44          l.blue  94      104
+## Hidden    8    28       magenta35      45          l.magent95      105
+## All Attributes 0        cyan   36      46          l.cyan  96      106
+##                         l.gray 37      47          white   97      107
+##                         default39      49
+##============================================================================
 
 JUDUL=$(whiptail --inputbox "Mau Judul Apa?" 8 78 --title "JUDUL" 3>&1 1>&2 2>&3)
 
