@@ -1,3 +1,5 @@
-# linux_script
+# Kompilasi Linux_Script
 
-## panduan git : http://rogerdudler.github.io/git-guide/index.id.html
+### panduan git : http://rogerdudler.github.io/git-guide/index.id.html
+
+## Linux Utility : Digunakan untuk OS
