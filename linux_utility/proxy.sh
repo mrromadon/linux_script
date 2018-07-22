@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROXY_ID=10.9.20.27
-PROXY_PORT=6565
+PROXY_ID=x.x.x.x
+PROXY_PORT=<port number>
 export https_proxy=http://$PROXY_ID:$PROXY_PORT/
 export http_proxy=http://$PROXY_ID:$PROXY_PORT/
 export ftp_proxy=http://$PROXY_ID:$PROXY_PORT/
