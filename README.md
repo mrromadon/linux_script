@@ -4,4 +4,4 @@
 
 ## Linux Utility : Digunakan untuk OS
 
-### tambahan git in atom
+### tambahan git in atom2
