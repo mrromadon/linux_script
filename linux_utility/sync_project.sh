@@ -1,1 +1,1 @@
-rsync -avzh --exclude 'config.php' /root/Dropbox/\[RM\]-01.Project-Dashboard-Admin/mrromadon/application/ /var/www/html/mrromadon/application/
+rsync -avzh --exclude 'config.php' /root/Dropbox/folder/ /var/www/html/application/
